@@ -134,39 +134,66 @@ html {
   font-size: 62.5%;
 }
 
-.main-image {
-  /* display: inline-block; */
-  position: relative;
-  background-image: url("food image");
-  width: 100%;
-  /* justify-content: right;
-  align-items: flex-start; */
-}
-
 body {
-  position: absolute;
+  background: border-box;
+  margin: 50px;
 }
 
 header {
   font-family: "Cormorant Garamond", serif;
   margin: 10% 15%;
   border-radius: 10%;
+  position: sticky;
+}
+
+.main .image {
+  background-image: url("food-image");
+  max-width: 100%;
+  height: auto;
 }
 
 h1 {
   font-size: 50px;
   font-family: "Calligraffitti", cursive;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-align: center;
 }
 
 nav {
-  padding-left: 140px;
+  justify-content: space-between;
+  display: flex;
   font-family: "Cormorant Garamond", serif;
+}
+
+nav a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 h2 {
   font-family: "Calligraffitti", cursive;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.about-section p {
+  font-size: 30px;
+  border-top: dashed black 3px;
+  padding-top: 15px;
+  font-family: "Cormorant Garamond", serif;
 }
 
 h3 {
   font-family: "Calligraffitti", cursive;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  font-size: 30px;
+}
+.another-section p {
+  font-size: 30px;
+  border-top: dashed black 3px;
+  padding-top: 15px;
+  font-family: "Cormorant Garamond", serif;
 }
