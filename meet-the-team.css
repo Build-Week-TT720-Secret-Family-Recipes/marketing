@@ -132,8 +132,8 @@ table {
 
 html {
   font-size: 62.5%;
-  border: solid lightslategrey 20px;
-  background-color: #eee;
+  border: solid #173e43 1rem;
+  background-color: #dddfd4;
 }
 
 body {
@@ -141,55 +141,193 @@ body {
   margin: 25px;
 }
 
+/* meet the team header */
 h1 {
   font-family: "Calligraffitti", cursive;
-  font-size: 60px;
+  font-size: 9rem;
   padding-top: 25px;
   padding-bottom: 25px;
   display: flex;
   justify-content: center;
 }
 
-.team-section {
+/* entire nav bar styling */
+nav {
+  font-family: "Cormorant Garamond", serif;
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
+  font-size: 2.75rem;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-left: 95px;
+  padding-right: 95px;
 }
 
-.row-one {
-  display: flex;
-}
-
-.row-two {
-  display: flex;
-}
-
-.row-three {
-  display: flex;
-  align-content: center;
-}
-
-img {
-  width: 200px;
-  border: solid lightslategrey 2px;
+/* each individual nav item styling */
+nav a {
+  color: black;
+  text-decoration: none;
+  border-radius: 40px;
+  border: 2px solid #173e43;
   padding: 10px;
 }
 
+/* nav hover styling */
+nav a:hover {
+  background-color: #173e43;
+  text-decoration: none;
+  color: #dddfd4;
+}
+
+/* entire Meet the team section */
+.team-section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* jonah and danielle section */
+.row-one {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* rob, sean, and emilio section */
+.row-two {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* sizing on all headshot images */
+img {
+  width: 200px;
+  border: solid #173e43 2px;
+  padding: 15px;
+}
+
+/* styling on meet Jonah */
 .jonah h2 {
   font-family: "Calligraffitti", cursive;
+  padding-top: 15px;
+  font-size: 2.5rem;
 }
 
+.jonah p {
+  font-size: 1.5rem;
+  font-family: "Cormorant Garamond", serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.jonah a {
+  font-size: 1.5rem;
+  font-family: "Cormorant Garamond", serif;
+  text-decoration: none;
+  color: black;
+}
+
+/* styling on meet danielle */
 .danielle h2 {
   font-family: "Calligraffitti", cursive;
+  padding-top: 15px;
+  font-size: 2.5rem;
 }
 
+.danielle p {
+  font-size: 1.5rem;
+  font-family: "Cormorant Garamond", serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.danielle a {
+  font-size: 1.5rem;
+  font-family: "Cormorant Garamond", serif;
+  text-decoration: none;
+  color: black;
+}
+
+/* styling on meet rob */
 .rob h2 {
   font-family: "Calligraffitti", cursive;
+  padding-top: 15px;
+  font-size: 2.5rem;
 }
 
+.rob p {
+  font-size: 1.5rem;
+  font-family: "Cormorant Garamond", serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.rob a {
+  font-size: 1.5rem;
+  font-family: "Cormorant Garamond", serif;
+  text-decoration: none;
+  color: black;
+}
+
+/* styling on meet emilio */
 .emilio h2 {
   font-family: "Calligraffitti", cursive;
+  padding-top: 15px;
+  font-size: 2.5rem;
 }
 
+.emilio p {
+  font-size: 1.5rem;
+  font-family: "Cormorant Garamond", serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.emilio a {
+  font-size: 1.5rem;
+  font-family: "Cormorant Garamond", serif;
+  text-decoration: none;
+  color: black;
+}
+
+/* styling on meet sean */
 .sean h2 {
   font-family: "Calligraffitti", cursive;
+  padding-top: 15px;
+  font-size: 2.5rem;
+}
+
+.sean p {
+  font-size: 1.5rem;
+  font-family: "Cormorant Garamond", serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.sean a {
+  font-size: 1.5rem;
+  font-family: "Cormorant Garamond", serif;
+  text-decoration: none;
+  color: black;
+}
+
+/* styling on footer copyright logo */
+footer {
+  color: black;
+  text-decoration: none;
+  font-family: "Calligraffitti", cursive;
+  font-size: 2rem;
+  padding: 5px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .nav {
+    font-size: 2rem;
+  }
 }
