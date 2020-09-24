@@ -132,8 +132,8 @@ table {
 
 html {
   font-size: 62.5%;
-  border: solid #173e43 1rem;
-  background-color: #dddfd4;
+  border: solid #6409A3 1rem;
+  background-color:#EEE0E0;
 }
 
 body {
@@ -155,7 +155,7 @@ h1 {
 nav {
   font-family: "Cormorant Garamond", serif;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   font-size: 2.75rem;
   padding-bottom: 30px;
   padding-top: 20px;
@@ -168,15 +168,17 @@ nav a {
   color: black;
   text-decoration: none;
   border-radius: 40px;
-  border: 2px solid #173e43;
+  border: 2px solid #6409A3;
   padding: 10px;
+  margin: 1%;
+  font-family: 'Lato', sans-serif;
 }
 
 /* nav hover styling */
 nav a:hover {
-  background-color: #173e43;
+  background-color: #6409A3;
   text-decoration: none;
-  color: #dddfd4;
+  color: #EEE0E0;
 }
 
 /* entire Meet the team section */
@@ -204,7 +206,7 @@ nav a:hover {
 /* sizing on all headshot images */
 img {
   width: 200px;
-  border: solid #173e43 2px;
+  border: solid #6409A3 2px;
   padding: 15px;
 }
 
