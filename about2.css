@@ -132,14 +132,20 @@ table {
 
 html {
   font-size: 62.5%;
-  border: solid #6409A3 1rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);;
-  background-color:#EEE0E0;
+  background-color: #6409a3;
 }
 
 body {
   background: border-box;
   margin: 25px;
+}
+
+#main {
+  background-color: #eee0e0;
+  padding: 20px;
+  border-radius: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+  margin: 3%;
 }
 
 /* styling on About header */
@@ -154,7 +160,7 @@ h1 {
 
 /* entire nav bar */
 nav {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   display: flex;
   justify-content: center;
   font-size: 2.75rem;
@@ -167,7 +173,7 @@ nav a {
   color: black;
   text-decoration: none;
   border-radius: 40px;
-  border: 2px solid #6409A3 ;
+  border: 2px solid #6409a3;
   padding: 10px;
   margin: 1%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
@@ -175,9 +181,9 @@ nav a {
 
 /*styling for hover on nav buttons*/
 nav a:hover {
-  background-color: #6409A3 ;
+  background-color: #6409a3;
   text-decoration: none;
-  color: #EEE0E0;
+  color: #eee0e0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -188,7 +194,7 @@ nav a:hover {
 
 /* sizing for banner image */
 img {
-  width: 119rem;
+  width: 111rem;
   height: 50rem;
 }
 
@@ -238,14 +244,75 @@ footer {
   align-items: center;
 }
 
-@media (max-width: 1024px) {
-  .img {
-    width: 94rem;
+/* media queries on image */
+@media (max-width: 1250px) {
+  img {
+    width: 109rem;
+  }
+}
+
+@media (max-width: 1225px) {
+  img {
+    width: 107rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  img {
+    width: 102rem;
+  }
+}
+
+@media (max-width: 1156px) {
+  img {
+    width: 100rem;
+  }
+}
+
+@media (max-width: 1132px) {
+  img {
+    width: 97rem;
+  }
+}
+
+@media (max-width: 1104px) {
+  img {
+    width: 95rem;
+  }
+}
+
+@media (max-width: 1084px) {
+  img {
+    width: 93rem;
+  }
+}
+
+@media (max-width: 1052px) {
+  img {
+    width: 90rem;
+  }
+}
+
+@media (max-width: 1028px) {
+  img {
+    width: 88rem;
+  }
+}
+
+@media (max-width: 1012px) {
+  img {
+    width: 85rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  img {
+    width: 83rem;
   }
 }
 
 @media (max-width: 800px) {
-  .img {
-    width: 90rem;
+  img {
+    width: 80rem;
   }
 }

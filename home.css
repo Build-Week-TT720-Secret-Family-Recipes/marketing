@@ -171,7 +171,6 @@ nav {
   font-family: "Lato", sans-serif;
   font-size: 50%;
   display: flex;
-  /* justify-content: space-around; */
   font-size: 2.75rem;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -229,6 +228,7 @@ img {
     margin-bottom: 8%;
 }
 
+/* add recipe images */
 .top-one,
 .bottom-one, .top-three, .bottom-three {
   display: flex;
@@ -277,3 +277,13 @@ footer {
   align-items: center;
 }
 
+@media (max-width: 800px) {
+    h1 {
+        font-size: 7rem;
+    }
+    nav {
+      font-size: 2rem;
+    }
+  }
+
+  
