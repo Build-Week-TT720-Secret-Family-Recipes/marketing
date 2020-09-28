@@ -143,7 +143,7 @@ body {
 #main {
   background-color: #eee0e0;
   padding: 20px;
-  border-radius: 10%;
+  border-radius: 3%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
   margin: 3%;
 }
@@ -155,7 +155,26 @@ h1 {
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: center;
-  text-shadow: 2px 2px #188210;
+}
+
+/* login and register styling */
+#login {
+  font-family: "Lato", sans-serif;
+  font-size: 50%;
+  display: flex;
+  font-size: 2.5rem;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  justify-content: center;
+}
+
+#login a {
+  text-decoration: none;
+  color: black;
+  border-radius: 40px;
+  margin: 1%;
+  font-weight: bolder;
+  font-size: 3rem;
 }
 
 /* entire nav bar */
@@ -163,7 +182,7 @@ nav {
   font-family: "Lato", sans-serif;
   display: flex;
   justify-content: center;
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -196,6 +215,7 @@ nav a:hover {
 img {
   width: 111rem;
   height: 50rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 /* how we started section */
@@ -314,5 +334,14 @@ footer {
 @media (max-width: 800px) {
   img {
     width: 80rem;
+  }
+}
+
+/* media queries on main body of page */
+
+@media (max-width: 600px) {
+  #main {
+    padding-right: 55px;
+    padding-left: 55px;
   }
 }
